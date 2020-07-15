@@ -1,13 +1,13 @@
 {
-  "showThemeCredit": true,
-  "name": "Hylia Starter Kit",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
-  "url": "https://hylia.website",
-  "authorEmail": "me@andy-bell.design",
-  "authorHandle": "@hankchizljaw",
-  "authorName": "Andy Bell",
+  "showThemeCredit": false,
+  "name": "buffed brain",
+  "shortDesc": "Deine Anlaufstelle für alle Themen rund um game industry & culture.",
+  "url": "https://buffedbrain.com",
+  "authorEmail": "buffedbrain@gmail.com",
+  "authorHandle": "@buffedbrain",
+  "authorName": "buffed brain",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 5,
-  "paymentPointer": "$ilp.uphold.com/MggmnFEyQqhk",
-  "faviconPath": "/images/favicon.png"
+  "paymentPointer": "test",
+  "faviconPath": "/images/favicon.png",
+  "maxPostsPerPage": 6
 }
