@@ -1,0 +1,23 @@
+{% from "macros/form.njk" import label, field, textarea, button %}
+
+<form name="contact" method="POST" data-netlify="true" action="/danke" netlify-honeypot="bot-field">
+  <ol class="[ field-list ]">
+    <li class="[ field-list__field-group ]">
+      {{ label("Wie dürfen wir Dich nennen?", "name") }}
+      {{ field( "text", "name", { required: true, placeholder: "Bernd Bieber", autocomplete: "name", autocorrect: "off", autocapitalize: "off" } ) }}
+    </li>
+    <li class="[ field-list__field-group ]">
+      {{ label("Deine E-Mail-Adresse?", "email") }}
+      {{ field( "email", "email", { required: true, placeholder: "bb@berndbieber.de", autocomplete: "email" } ) }}
+    </li>
+    <li class="[ field-list__field-group ]">
+      {{ label("Datenschutzerklärung", "datenschutz") }}
+      <p>Ich habe die <a href="/datenschutz">Datenschutzerklärung</a> gelesen und bin damit einverstanden, in den buffed brain Newsletter eingetragen zu werden und entsprechend regelmäßige E-Mails zu erhalten.</p>
+      {{ field( "checkbox", "datenschutz", { required: true } ) }}
+    </li>
+    <li hidden>
+      <label>Bist Du ein Mensch? Dann fülle dieses Feld bitte NICHT aus: <input name="bot-field" /></label>
+    </li>
+  </ol>
+  {{ button("Jetzt anmelden") }}
+</form>
