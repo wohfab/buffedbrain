@@ -1,6 +1,6 @@
 ---
 title: 2020 - Kommende Game Events
-socialImage: /images/favicon.png
+socialImage: ""
 date: 2020-07-16
 tags:
   - kalender
