@@ -1,8 +1,8 @@
 ---
 layout: home
-title: willkommen
+title: buffed brain
 metaDesc: buffed brain. game industry & culture
-postsHeading: blog
+postsHeading: Blog
 archiveButtonText: alle beiträge
 socialImage: ""
 ---

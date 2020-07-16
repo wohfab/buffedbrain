@@ -14,10 +14,28 @@ const EXCLUDED_URLS = [
 ];
 
 // URLS that we want to be cached when the worker is installed
-const PRE_CACHE_URLS = ['/', '/fonts/lora-v13-latin-700.woff'];
+const PRE_CACHE_URLS = [
+  '/',
+  '/fonts/SourceSansPro-Regular.ttf',
+  '/fonts/SourceSansPro-Italic.ttf',
+  '/fonts/SourceSansPro-ExtraLight.ttf',
+  '/fonts/SourceSansPro-ExtraLightItalic.ttf',
+  '/fonts/SourceSansPro-Bold.ttf',
+  '/fonts/SourceSansPro-BoldItalic.ttf',
+  '/fonts/SourceSansPro-Black.ttf',
+  '/fonts/SourceSansPro-BlackItalic.ttf',
+  '/fonts/PressStart2P-Regular.ttf',
+  '/fonts/MajorMonoDisplay-Regular.ttf',
+  '/fonts/PlayfairDisplay-Regular.ttf',
+  '/fonts/PlayfairDisplay-Italic.ttf',
+  '/fonts/PlayfairDisplay-Bold.ttf',
+  '/fonts/PlayfairDisplay-BoldItalic.ttf',
+  '/fonts/PlayfairDisplay-Black.ttf',
+  '/fonts/PlayfairDisplay-BlackItalic.ttf'
+];
 
 // You might want to bypass a certain host
-const IGNORED_HOSTS = ['localhost', 'unpkg.com', ];
+const IGNORED_HOSTS = ['localhost', 'unpkg.com'];
 
 /**
  * Takes an array of strings and puts them in a named cache store

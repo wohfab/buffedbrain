@@ -1,11 +1,129 @@
-/* lora-700 - latin */
 @font-face {
-  font-family: 'Lora';
+  font-family: 'bb-sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SourceSansPro-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('/fonts/SourceSansPro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-sans';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url('/fonts/SourceSansPro-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-sans';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local('Lora Bold'), local('Lora-Bold'),
-    url('/fonts/lora-v13-latin-700.woff') format('woff');
+  src: url('/fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SourceSansPro-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/SourceSansPro-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-sans';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/SourceSansPro-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/PressStart2P-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/MajorMonoDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-serif';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-serif';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-serif';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/PlayfairDisplay-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'bb-serif';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/PlayfairDisplay-BlackItalic.ttf') format('truetype');
 }
 
 body {
