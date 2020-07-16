@@ -1,3 +1,5 @@
 [build]
   command = "npm run production"
   publish = "dist"
+  base = "."
+  functions = "./functions"
