@@ -24,7 +24,7 @@
     a {
       color: currentColor;
 
-      @include apply-utility('weight', 'mid');
+      @include apply-utility('font', 'mono');
 
       &:not(:hover) {
         text-decoration: none;
