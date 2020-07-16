@@ -7,7 +7,7 @@
   "authorHandle": "@buffedbrain",
   "authorName": "buffed brain",
   "enableThirdPartyComments": false,
-  "paymentPointer": "test",
+  "paymentPointer": "$ilp.uphold.com/2PAJh2bMrJer",
   "faviconPath": "/images/favicon.png",
   "maxPostsPerPage": 6
 }
