@@ -37,7 +37,7 @@ collections:
       - {label: "Social Image", name: "socialImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "posts"
-    label: "Posts"
+    label: "Blog"
     folder: "src/posts"
     slug: "{{slug}}"
     preview_path: "posts/{{slug}}"
